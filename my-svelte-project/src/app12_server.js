@@ -152,4 +152,4 @@ app.post('/app12_task_delete', (req, res) => {
         console.error(error);
         res.status(500).json({ error: 'Error deleting task' });
     }
-}
+});
