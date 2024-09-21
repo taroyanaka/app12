@@ -1,8 +1,6 @@
 <script>
     import { onMount } from 'svelte';
     import Gantt from 'frappe-gantt';
-    import firebase from 'firebase/app';
-    import 'firebase/auth';
 
     // Firebaseの設定
     const firebase_config = {
